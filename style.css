@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --blue: #0085ff;
+  --primary: #00611b;
+}
+
+body {
+  background: var(--primary);
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  text-align: center;
+}
+
+button {
+  border: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main {
+  width: 100%;
+  padding: 2rem 5rem 1rem;
+  color: var(--white);
+}
+
+.title {
+  font-size: 5em;
+  line-height: 64px;
+}
+
+.main-logo {
+}
+
+.description {
+  font-size: 3.5em;
+  line-height: 64px;
+  text-align: center;
+}
+
+.main-description {
+  max-width: 1335px;
+  width: 100%;
+  margin: 0 auto 1.5rem;
+}
+
+.button {
+  border-radius: 8px;
+  min-width: 480px;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  font-size: 4em;
+  color: var(--white);
+}
+
+.monicha-button {
+  border-radius: 8px;
+  background: var(--blue);
+  transition: opacity 0.25s linear;
+}
+
+.monicha-button:hover {
+  opacity: 0.7;
+}
+
+.meme-button {
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 0px #ffffff;
+  transition: all 0.25s linear;
+}
+
+.meme-button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--black);
+  font-size: 4.5em;
+}
+
+.address {
+}
+
+.footer-title {
+  color: var(--white);
+  margin-bottom: 0.75rem;
+}
+
+.socials {
+  align-items: center;
+  gap: 36px;
+}
+
+.meme {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+}
+
+.socials .tele img,
+.socials .twitter img {
+  height: 40px;
+}
+
+.socials .edge img {
+  height: 55px;
+  transform: translate(-10px, 2px);
+}
+
+footer {
+  padding: 0 0 1rem;
+}
